@@ -1,0 +1,12 @@
+.one {
+    font-family: "Agency FB";
+    color: aquamarine;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.two {
+    position: absolute;
+    top: 0;
+    left: 25%;
+}

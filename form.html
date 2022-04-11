@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма регистрации</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+<div class="container">
+  <div class="frame">
+    <div>
+      <h1>Регистрация</h1>
+      <form class="form-signup" action="form_post.php" method="post">
+        <label for="name">Имя</label>
+        <input class="form-styling" type="text" id="name" name="name" placeholder=""/>
+        <label for="surname">Фамилия</label>
+        <input class="form-styling" type="text" id="surname" name="surname" placeholder=""/>
+        <label for="email">Электронная почта</label>
+        <input class="form-styling" type="email" id="email" name="email" placeholder=""/>
+        <label for="password">Пароль</label>
+        <input class="form-styling" type="password" id="password" name="password" placeholder=""/>
+        <label for="confirmpassword">Подтвердите пароль</label>
+        <input class="form-styling" type="password" id="confirmpassword" placeholder=""/>
+        <input class="btn-signup" type="submit" value="Зарегистрироваться"/>
+      </form>
+    </div>
+  </div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
+</html>
